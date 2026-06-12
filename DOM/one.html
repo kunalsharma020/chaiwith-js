@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <style>
+        .bg-black{
+            background-color:#212121;
+            color:#fff;
+        }
+    </style>
+
+</head>
+<body style="background-color:#212121; color:#fff" >
+    <div class="parent">
+        <div class="day">MON</div>
+        <div class="day">tues</div>
+        <div class="day">wed</div>
+        <div class="day">thur</div>
+    </div>
+    
+    
+</body>
+<script>
+    const par=document.querySelector('.parent')
+    // console.log(par);
+    // console.log(par.children);
+    // console.log(par.children[1]);
+    // for(let i=0;i<par.children.length;i++){
+    //     console.log(par.children[i].innerHTML)
+    // }
+    // par.children.style.color="orange"
+    //  console.log(par.firstElementChild)
+     const day1=document.querySelector('.day')
+    //  console.log(day1)
+    console.log(day1.nextElementSibling)
+
+
+</script>
+</html> 

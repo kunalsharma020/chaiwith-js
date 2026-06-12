@@ -23,15 +23,15 @@ function greet() { // function
 // +++++++++++++++++++++++++++++++++++++++++++++++
 //  stack memory (primitve data types) and heap memory (non-primitive data types
 
-let myYoutubechannel="kunal"; // stored in stack memory
+let myYoutubechannel="john"; // stored in stack memory
 
 let myYoutubechannel2=myYoutubechannel; // stored in stack memory
-console.log(myYoutubechannel); // kunal
-console.log(myYoutubechannel2); // kunal
+console.log(myYoutubechannel); // john
+console.log(myYoutubechannel2); // john
 
 let userOne={
-    name:"kunal",  
-    channel:"kunal"
+    name:"john",  
+    channel:"john"
     email:""
 } // stored in heap memory
 
